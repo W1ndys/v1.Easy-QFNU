@@ -1,0 +1,172 @@
+<style>
+  .footer-links-container {
+    display: flex;
+    flex-direction: row;
+    /* 横向布局 */
+    align-items: center;
+    justify-content: space-between;
+    /* 平分容器空间 */
+  }
+
+  /* 强制显示标题 */
+  .md-footer__title {
+    display: block !important;
+  }
+
+  .md-footer__link {
+    white-space: nowrap;
+    /* 禁止文本换行 */
+    overflow: hidden;
+    /* 隐藏溢出的文本 */
+    text-overflow: ellipsis;
+    /* 以省略号形式显示溢出的文本 */
+  }
+
+  @media (max-width: 768px) {
+    .md-footer__link {
+      margin-right: 10px;
+      /* 在小屏幕上减小链接之间的右边距 */
+    }
+  }
+
+  /* 移动设备页脚字体大小 */
+  @media (max-width: 768px) {
+    .footer-links-container .md-ellipsis {
+      font-size: 14px;
+      /* 您希望的字体大小 */
+      /* 其他样式属性 */
+    }
+  }
+
+  .Data-Submission {
+    font-size: 14px;
+    /* 您希望的字体大小 */
+    /* 其他样式属性 */
+  }
+</style>
+
+<hr>
+
+<p class="Data-Submission">发现错误? 想参与编辑? 请阅读: <a href="/Start/Data-Submission/">贡献指南</a>，想联系作者？请点击: <a
+    href="/Start/#contact">联系作者</a>，想赞助我? 请点击: <a href="/Start/Sponsor/">赞助计划</a></p>
+
+
+
+<div class="footer-links-container">
+  <!-- Link to previous page上一页链接 -->
+  {% if page.previous_page %}
+  {% set direction = lang.t("footer.previous") %}
+  <a href="{{ page.previous_page.url | url }}" class="md-footer__link md-footer__link--prev"
+    aria-label="{{ direction }}: {{ page.previous_page.title | e }}" rel="prev">
+    <div class="md-footer__button md-icon">
+      {% set icon = config.theme.icon.previous or "material/arrow-left" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </div>
+    <div class="md-footer__title">
+      <span class="md-footer__direction">
+        {{ direction }}
+      </span>
+      <div class="md-ellipsis">
+        {{ page.previous_page.title | e }}
+      </div>
+    </div>
+  </a>
+  {% endif %}
+
+  <!-- Link to next pages下一页链接 -->
+  {% if page.next_page %}
+  {% set direction = lang.t("footer.next") %}
+  <a href="{{ page.next_page.url | url }}" class="md-footer__link md-footer__link--next"
+    aria-label="{{ direction }}: {{ page.next_page.title | e }}" rel="next">
+    <div class="md-footer__title">
+      <span class="md-footer__direction">
+        {{ direction }}
+      </span>
+      <div class="md-ellipsis">
+        {{ page.next_page.title | e }}
+      </div>
+    </div>
+    <div class="md-footer__button md-icon">
+      {% set icon = config.theme.icon.next or "material/arrow-right" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </div>
+  </a>
+  {% endif %}
+</div>
+
+<!-- 评论功能的核心文件 -->
+{% if page.meta.comments %}
+<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+<!-- 插入评论插件 -->
+
+<!-- <p style="text-align: center;">评论区仅供娱乐，数据库不稳定，可能会随时关闭</p> -->
+
+<!-- Twikoo评论插件 -->
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.all.min.js"
+  integrity="sha384-iwCuZOQXH9C9J67oqn6gT5NKj9GRVo/CY8N3mOGk1Vr4aIiAgme2gXTh7QGagg3B" crossorigin="anonymous"></script>
+<div id="tcomment"></div>
+<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.all.min.js"></script>
+<script>
+  twikoo.init({
+    envId: 'https://comments.easy-qfnu.top', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+    el: '#tcomment', // 容器元素
+    // region: 'ap-shanghai', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+    path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+    lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+  })
+</script> -->
+
+<!-- giscus评论插件 -->
+<script src="https://giscus.app/client.js" data-repo="W1ndys/Easy-QFNU" data-repo-id="R_kgDOLOtv9Q"
+  data-category="Show and tell" data-category-id="DIC_kwDOLOtv9c4Cd0Rh" data-mapping="URL" data-strict="1"
+  data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme"
+  data-lang="zh-CN" crossorigin="anonymous" async>
+  </script>
+
+
+<!-- Giscus评论  -->
+<script>
+  var giscus = document.querySelector("script[src*=giscus]")
+
+  // Set palette on initial load
+  var palette = __md_get("__palette")
+  if (palette && typeof palette.color === "object") {
+    var theme = palette.color.scheme === "slate"
+      ? "transparent_dark"
+      : "light"
+
+    // Instruct Giscus to set theme
+    giscus.setAttribute("data-theme", theme)
+  }
+
+  // Register event handlers after documented loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    var ref = document.querySelector("[data-md-component=palette]")
+    ref.addEventListener("change", function () {
+      var palette = __md_get("__palette")
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate"
+          ? "transparent_dark"
+          : "light"
+
+        // Instruct Giscus to change theme
+        var frame = document.querySelector(".giscus-frame")
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        )
+      }
+    })
+  })
+</script>
+<!-- <div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://comments.easy-qfnu.top',
+  });
+</script> -->
+{% endif %}
