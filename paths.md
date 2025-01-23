@@ -1,3 +1,3 @@
 # 文件路径列表
 
-- 院社团: Easy-College/Physical-Science/Club/index.md
+- 选课攻略: Easy-SelectCourse/Selection-Strategy/index.md

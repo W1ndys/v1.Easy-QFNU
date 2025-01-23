@@ -335,7 +335,7 @@ plugins:
       password_button: True # 解锁按钮文字
       password_button_text: "点击解密"
       password_inventory:
-        SelectCourse: "Welcome_to_Easy-QFNU_and_QFNU"
+        SelectCourse: "We_are_all_good_kids"
 
   # 标签插件
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
@@ -480,9 +480,9 @@ extra:
       link: https://vercel.com/w1ndys
       name: Vercel提供部署服务
 
-    - icon: W1ndys/dogecloud
-      link: https://www.dogecloud.com/
-      name: 多吉云提供加速服务
+    # - icon: W1ndys/dogecloud
+    #   link: https://www.dogecloud.com/
+    #   name: 多吉云提供加速服务
 
     # - icon: W1ndys/Zeabur
     #   name: Zeabur提供部署服务
@@ -544,6 +544,10 @@ nav:
 
       - 欢迎新生: Easy-School/New-Students/index.md
 
+      - 校园卡篇: Easy-School/School-Card/index.md
+
+      - 智慧曲园: Easy-School/Smart-Quyuan/index.md
+
       - 关于军训: Easy-School/Military/index.md
 
       - 快递包裹: Easy-School/Express/index.md
@@ -566,7 +570,7 @@ nav:
 
       - 反诈指南: Easy-School/Anti-Fraud/index.md
 
-      - 本章致谢: Easy-School/Thanks/index.md
+      - 其他注意: Easy-School/Other-Notice/index.md
 
   - Easy-选课:
       - Easy-SelectCourse/index.md
@@ -591,6 +595,8 @@ nav:
           - 公选课: Easy-SelectCourse/Selection-Guide/Public-Elective/index.md
 
           - 选课模块: Easy-SelectCourse/Selection-Guide/Selection-Module/index.md
+          
+          - 2024体育: Easy-SelectCourse/Selection-Guide/2024Sports/index.md
 
       - 选课推荐:
           - Easy-SelectCourse/Curriculum-Recommend/index.md
@@ -609,7 +615,11 @@ nav:
 
           - 贡献者们: Easy-SelectCourse/Curriculum-Recommend/Contributors/index.md
 
+      - 选课攻略: Easy-SelectCourse/Selection-Strategy/index.md
+
       - 培养方案: Easy-SelectCourse/Curriculum/index.md
+
+      - 教务杂症: Easy-SelectCourse/Jiaowu-Symptoms/index.md
 
   - Easy-学院:
       - Easy-College/index.md
@@ -699,8 +709,6 @@ nav:
       - 食堂光荣榜: Others/eat_error.md
 
       - 钉钉: Others/dingtalk.md
-
-      - 数字逻辑电路重点: Others/digital-logic-circuit/index.md
 
   - 更新日志:
       - Update/index.md

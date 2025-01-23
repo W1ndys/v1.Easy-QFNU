@@ -3,7 +3,7 @@ comments: true
 icon: material/lightbulb
 level: SelectCourse
 encryption_summary: 关注微信公众号「W1ndys」发送「选课指北」获取密码
-encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北」获取密码
+encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北」获取密码，没反应就刷新重试
 ---
 
 # 思修类课程
@@ -15,6 +15,10 @@ encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北�
 ### 曲阜
 
 #### 鲁昕
+
+讲课会有趣，不过点名比较严格
+
+> kxy(2023 年)
 
 鲁昕老师真性情，上课会点名收手机，课堂上不让玩手机、睡觉、写其他作业，被他看到会很惨（其实他一般也看不到，除非你特别过分），老师讲课很有意思，他上课有自己的课件，你甚至不需要带课本，除非是在课上玩手机啥的被他抓到，不然一般不会挂人，给分也可以的
 
@@ -105,3 +109,25 @@ encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北�
 老师人美心善，打分高，上课轻松愉快。喜欢在课间放音乐，非常好听！
 
 > 踩月亮了吗(2023 年)
+
+## 毛概/毛泽东思想与中国特色社会主义理论体系概论
+
+### 曲阜校区
+
+#### 辛宝海
+
+老师和蔼，上课幽默，给分高，期末前要交笔记。课堂上互动回答问题加平时分
+
+> SSMT(2024 年)
+
+#### 张咸杰
+
+上课希望同学们都抬头，要求严格。喜欢在 qq 群议论时政，弄丢过学生的作业，后来才找到（有聊天记录图片为证）念 ppt
+
+<img src="https://s1.locimg.com/2024/08/30/1f38ab4a172af.png" alt="img" style="zoom:25%;" />
+
+<img src="https://s1.locimg.com/2024/08/30/5a5e9eef10563.png" alt="img" style="zoom:25%;" />
+
+<img src="https://s1.locimg.com/2024/08/30/31027ba6c4007.png" alt="img" style="zoom:25%;" />
+
+> 辩证图示(2024.0 年)

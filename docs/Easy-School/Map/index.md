@@ -9,22 +9,34 @@ icon: material/map
 
 > 曲阜校区飞天富贵鼠鼠, W1ndys, 希望数分别在折磨我了供图, 日照校区颜珞供图, 新校区图书馆地图晓镜供图, 格物楼地图带标记计算机爱好者协会供图
 
-> 图片加载较慢, 若超过 10 秒未加载请刷新页面
+!!! warning "网盘地址"
+
+    地图原图下载地址
+    
+    链接：[网盘地址](https://www.123pan.com/s/mJtkjv-AhA0v)
+    
+    提取码：ezqf
+    
+    选用了123网盘，不限速，且无需客户端，无需登录，直接下载。
 
 ## 曲阜校区地图
 
 ### 老校区地图
 
+> 注意：页面顶部有网盘链接，高清图片
+
 <p>
-    <img src="School-Map/Old1.jpg" alt="老校区地图" style="width:40%;"/>
-    <img src="School-Map/Old2.jpg" alt="老校区地图" style="width:40%;"/>
+    <img src="https://pic1.zhimg.com/80/v2-4b994531c2f64c78f8ad2ee15c3bea94_720w.webp" alt="老校区地图" style="width:40%;"/>
+    <img src="https://pica.zhimg.com/80/v2-d35e32e1bafc20b5b3b7dcc9ebdd6012_720w.webp" alt="老校区地图" style="width:40%;"/>
 </p>
 
 #### 综合楼卫生间地图
 
 > 致谢：本图由 飞天富贵鼠鼠 提供
+>
+> 注意：页面顶部有网盘链接，高清图片
 
-<img src="综合楼卫生间地图.jpg" alt="综合楼卫生间地图" style="width:30%;" />
+<img src="https://picx.zhimg.com/80/v2-3beab9b26702d1d272c70dd12af99149_720w.webp" alt="综合楼卫生间地图" style="width:30%;" />
 
 ### 新校区地图
 
@@ -43,19 +55,23 @@ icon: material/map
     SHA1: **830146c6b32632cab9f5206755856f63700ae4ab**
 
 <p>
-    <img src="School-Map/New1.jpg" alt="新校区地图" style="width:33%;" />
-    <img src="School-Map/New2.jpg" alt="新校区地图" style="width:40%;" />
+    <img src="https://picx.zhimg.com/80/v2-af7ba86f2bc5adddcf96f36e840fecdb_720w.webp" alt="新校区地图" style="width:33%;" />
+    <img src="https://pic1.zhimg.com/80/v2-0333c99393fb5d91476c25b9a1a28764_720w.webp" alt="新校区地图" style="width:40%;" />
 </p>
 
 #### 格物楼局部地图
 
 > 致谢：本图由 计算机爱好者协会 提供
+>
+> 注意：页面顶部有网盘链接，高清图片
 
-<img src="格物楼局部.png" alt="格物楼局部地图" style="width:30%;" />
+<img src="https://picx.zhimg.com/80/v2-890b95a2d380227462672aff22b8136b_720w.webp" alt="格物楼局部地图" style="width:30%;" />
 
 #### 文渊楼地图
 
 > 致谢：本图由 晓镜 提供
+>
+> 注意：页面顶部有网盘链接，高清图片
 
 <p>
     <img src="Library/New/3L.png" style="width:30%;">
@@ -66,17 +82,20 @@ icon: material/map
 ### 综合地图
 
 > 本图由 `希望数分别再折磨我了` 、`曲师大移动营业厅` 提供
+> 注意：页面顶部有网盘链接，高清图片
 
 <p>
-    <img src="School-Map/All2.jpg" alt="老校区地图, 希望数分别再折磨我了供图" style="width:40%;" />
-    <img src="School-Map/All1.png" alt="综合地图" style="width:40%;" />
+    <img src="https://pic3.zhimg.com/80/v2-d0075aa6dbb48c5486346b12b6851cb0_720w.webp" alt="老校区地图, 希望数分别再折磨我了供图" style="width:40%;" />
+    <img src="https://pic2.zhimg.com/80/v2-bf86b30c23f8398b650c61e022878cc7_720w.webp" alt="综合地图" style="width:40%;" />
 </p>
 
 ## 日照校区地图
 
 > 致谢：本图由 颜珞 提供
+>
+> 注意：页面顶部有网盘链接，高清图片
 
-<img src="School-Map/RZ.jpg" alt="日照校区地图" style="width:40%;" />
+<img src="https://picx.zhimg.com/80/v2-93a5aad41f90f91d7790792a2a1cd44b_720w.webp" alt="日照校区地图" style="width:40%;" />
 
 ## 曲阜校区小众教室地点位置
 

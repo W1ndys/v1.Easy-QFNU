@@ -136,3 +136,4 @@ Easy-选课的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top
 <div class="grid cards" markdown>
 - **[赞助计划](https://easy-qfnu.top/Start/Sponsor/)**-本站开启了赞助计划，赞助的金额将用于服务器维护、网站建设、内容更新、以及其他相关事宜。
 </div>
+<script>  window.difyChatbotConfig = {   token: '0BZppySjLneUacOY'  } </script> <script  src="https://udify.app/embed.min.js"  id="0BZppySjLneUacOY"  defer> </script> <style>   #dify-chatbot-bubble-button {     background-color: #1C64F2 !important;   }   #dify-chatbot-bubble-window {     width: 24rem !important;     height: 40rem !important;   } </style>
